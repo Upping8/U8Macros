@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'U8Macros_Example' do
+  pod 'U8Macros', :path => '../'
+
+  target 'U8Macros_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
